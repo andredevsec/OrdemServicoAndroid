@@ -180,10 +180,10 @@ public class FormOrdemServico extends AppCompatActivity {
                                 "Empresa prestadora de serviço: " + nomeEmpresa + "\n" +
                                 "Nome do cliente: " + nome + "\n" +
                                 "Serviço realizado: " + service + "\n" +
-                                "Valor serviço: " + valorService + "\n" +
+                                "Valor serviço: R$" + valorService + "\n" +
                                 "Produtos utilizados: " + product + "\n" +
-                                "Valor produtos: " + valorProduto + "\n" +
-                                "Valor total: " + valorTotal + "\n" +
+                                "Valor produtos: R$" + valorProduto + "\n" +
+                                "Valor total: R$" + valorTotal + "\n" +
                                 "Status da ordem: " + status + "\n";
 
                         Intent intent = new Intent(Intent.ACTION_SEND);
